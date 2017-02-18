@@ -17,6 +17,6 @@ My first React.js project
 This version allow users to input their information within provided input fields. Users are also presented with a submit button where they can clicked on it and their submitted information are displayed in a tabular format. 
 
 # Version 2 requirements
-- integrate Sass
+- add gitignore file
 - Unit testing using Jest
 - In progress ........
