@@ -9,7 +9,6 @@ import User from './components/user_component';
 // Require material-ui raisedbutton for "Submit" button
 import {RaisedButton} from 'material-ui';
 
-
 const App = () => (
   <MuiThemeProvider>
     <User />

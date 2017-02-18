@@ -2,7 +2,16 @@ var express = require('express');
 var app     = express();
 
 // Setting up the port number using ECMA6
-let port = process.env.PORT || 3000;
+let port = process.env.PORT || 8080;
+
+var sassMiddleware = require('node-sass-middleware');
+var path = require('path');
+
+app.use(sassMiddleware({
+  src: path.join(__dirname, 'public'),
+  dest: path.join(__dirname, 'public')
+}));
+
 app.set('view engine', 'ejs');
 app.use(express.static('public'));
 
