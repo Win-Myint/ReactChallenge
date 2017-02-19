@@ -4,6 +4,7 @@ var app     = express();
 // Setting up the port number using ECMA6
 let port = process.env.PORT || 8080;
 
+// Require node-sass middleware module
 var sassMiddleware = require('node-sass-middleware');
 var path = require('path');
 
