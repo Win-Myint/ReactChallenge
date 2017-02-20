@@ -19,4 +19,3 @@ This version allow users to input their information within provided input fields
 # Version 2 requirements
 - add gitignore file (Done!)
 - integerate Sass (Done!)
-- unit testing using Jest (in progress!)
